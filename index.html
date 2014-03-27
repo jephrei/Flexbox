@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    
+
 <head>
 <meta charset="utf-8" />
 <title>Flexbox Template</title>
@@ -18,15 +18,130 @@
 <body>
 
 <div class="container">
-	<h1>Flexbox</h1>
-	<p>a test of the current system, it's capabilities and compatibilities.</p>
+	<h1>Flexbox Testing</h1>
+	<h2>all set</h2>
 	<div class="row">
+		<div class="col">.col</div>
+		<div class="col">.col</div>
+		<div class="col">.col</div>
+		<div class="col">.col</div>
+		<div class="col">.col</div>
+		<div class="col">.col</div>
+		<div class="col">.col</div>
+		<div class="col">.col</div>
+		<div class="col">.col</div>
 		<div class="col">.col</div>
 	</div>
+	<br />
+
 	<div class="row">
+		<div class="col">.col</div>
 		<div class="col-2">.col-2</div>
-		<div class="col">.col</div>
-		<div class="col">.col</div>
+		<div class="col-3">.col-3</div>
+		<div class="col-4">.col-4</div>
+	</div>
+
+	<br />
+
+	<div class="row">
+		<div class="col">.col<br/>Lorem ipsum dolor sit amet.</div>
+		<div class="col">.col<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+	</div>
+
+	<br />
+
+	<div class="row">
+		<div class="col">.col<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+		<div class="col-2">.col-2<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+	</div>
+
+	<h2>nested</h2>
+	<div class="row">
+		<div class="col">.col<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+		<div class="col-2">.col-2<br/>
+			<div class="row">
+				<div class="col">.col<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+				<div class="col">.col<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+				<div class="col">.col<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+			</div>
+		</div>
+	</div>
+
+	<h2>no content</h2>
+	<div class="row">
+		<div class="col">.col<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+		<div class="col"></div>
+		<div class="col">.col<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+	</div>
+
+	<h2>all auto</h2>
+	<div class="row">
+		<div class="col-auto">.col-auto<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+		<div class="col-auto">.col-auto<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+		<div class="col-auto">.col-auto<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+	</div>
+	<h2>auto and set</h2>
+	<div class="row">
+		<div class="col-auto">.col-auto<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+		<div class="col">.col<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui..col</div>
+		<div class="col">.col<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui..col</div>
+	</div>
+
+	<h2>none and set</h2>
+	<div class="row">
+		<div class="col-none">.col-none<br/>Lorem ipsum dolor sit amet.</div>
+		<div class="col">.col<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+		<div class="col">.col<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+	</div>
+
+	<h2>.row.spaced</h2>
+	<div class="row spaced">
+		<div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui. Fusce fermentum elit a mauris commodo ac iaculis mi porta.</div>
+		<div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui. Fusce fermentum elit a mauris commodo ac iaculis mi porta.</div>
+		<div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui. Fusce fermentum elit a mauris commodo ac iaculis mi porta.</div>
+	</div>
+
+	<h2>.row.reverse</h2>
+	<div class="row reverse">
+		<div class="col">1st<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+		<div class="col">2nd<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+	</div>
+
+	<h2>.row.inline</h2>
+	<div class="row inline">
+		<div class="col">.col<br/>Lorem ipsum dolor sit amet.</div>
+		<div class="col">.col<br/>Lorem ipsum dolor sit amet.</div>
+		<div class="col">.col<br/>Lorem ipsum dolor sit amet.</div>
+	</div>
+
+	<h2>.row.no-stack</h2>
+	<div class="row no-stack">
+		<div class="col">.col<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+		<div class="col">.col<br/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui.</div>
+	</div>
+
+	<h2>alignment</h2>
+	<div class="row">
+		<div class="col start">.col.start</div>
+		<div class="col center">.col.center</div>
+		<div class="col end">.col.end</div>
+		<div class="col">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque viverra sodales massa eu feugiat. Duis nisi nibh, lacinia a ultrices commodo, mattis et dui. Fusce fermentum elit a mauris commodo ac iaculis mi porta.</div>
+	</div>
+
+	<h2>order</h2>
+	<h3>.first</h3>
+	<div class="row">
+		<div class="col">1</div>
+		<div class="col">2</div>
+		<div class="col first">3 .first</div>
+		<div class="col">4</div>
+	</div>
+	<h3>.last</h3>
+	<div class="row">
+		<div class="col">1</div>
+		<div class="col">2</div>
+		<div class="col last">3 .last</div>
+		<div class="col">4</div>
 	</div>
 </div>
 
